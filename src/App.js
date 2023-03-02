@@ -1,4 +1,4 @@
-import {Component, StrictMode} from 'react';
+import {Component} from 'react';
 import './App.css';
 
 const Header = () => {
@@ -42,14 +42,11 @@ function Btn() {
 function App() {
   return (
     <div className="App">
-      <StrictMode>
-			<Header/>
-		</StrictMode>
+      <Header/>
 		<Field/>
 		<Btn/>
     </div>
-  );
+  ); 
 }
 
-export {Header};
 export default App;
