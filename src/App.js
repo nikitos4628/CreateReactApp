@@ -21,7 +21,7 @@ class Field extends Component {
 		const holder = 'Enter here';
 		const styledField = {
 			width: '300px'
-		};
+		}; 
 
 		return <input 
 			placeholder={holder}
