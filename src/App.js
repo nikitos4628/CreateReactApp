@@ -37,7 +37,7 @@ function Btn() {
 	
 
 	return <button>{text}</button>
-}
+} 
 
 function App() {
   return (
