@@ -15,7 +15,7 @@ function App() {
       <WhoAmI name={() => {return 'John'}} surname='Smith' link='https://youtube.com'/>
 		<WhoAmI name={() => {return 'Nikita'}} surname='Sirius' link='https://youtube.com/youtube'/>
     </div>
-  );
+  ); 
 }
 
 export default App;
